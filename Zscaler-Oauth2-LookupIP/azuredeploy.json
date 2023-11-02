@@ -137,7 +137,12 @@
                                     "Succeeded"
                                 ]
                             },
-                            "type":  "Foreach"
+                            "type":  "Foreach",
+                            "runtimeConfiguration": {
+                                "concurrency": {
+                                    "repetitions": 1
+                                }
+                            }
                         },
                         "Initialize_variable":  {
                             "runAfter":  {
