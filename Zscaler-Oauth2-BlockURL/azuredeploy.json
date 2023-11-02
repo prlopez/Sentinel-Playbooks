@@ -137,12 +137,12 @@
                                     "Succeeded"
                                 ]
                             },
-                            "type":  "Foreach",
                             "runtimeConfiguration": {
                                 "concurrency": {
                                     "repetitions": 1
                                 }
-                            }
+                            },
+                            "type":  "Foreach"
                         },
                         "Parse_Zscaler-Oauth2-Authentication_JSON_Response":  {
                             "runAfter":  {
